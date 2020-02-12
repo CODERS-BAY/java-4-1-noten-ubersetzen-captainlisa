@@ -1,5 +1,3 @@
-package com.codersbay;
-
 import java.util.Scanner;
 
 public class Main {
@@ -28,7 +26,8 @@ public class Main {
             case 5:
                 System.out.println("Nicht Genügend");
                 break;
-
+            default:
+                System.out.println("Die Eingabe ist nicht gültig.");
         }
     }
 }
